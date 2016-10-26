@@ -1,0 +1,43 @@
+html {
+  background: #1e3c72; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: block;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#search-form{
+  text-align: center;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+#search-input{
+  height: 35px;
+}
+
+#search-button{
+  border-radius: 4px;
+}
+
+#list {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+img{
+  display: block;
+  margin-left: 60px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 480px;
+  border-radius: 10px;
+}
